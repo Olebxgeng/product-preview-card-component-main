@@ -122,9 +122,9 @@ footer{
     main{
         display: flex;
         flex-direction: row;
-        min-width: 550px;
+        min-width: 500px;
         background-color: var(--clr-neutral-100);
-        border-radius: 5%;
+        border-radius: 3%;
         margin: 10% auto;
     }
     .size-img{
