@@ -119,13 +119,20 @@ footer{
 /* ---MEDIA QUERIES--- */
 
  @media (min-width: 420px) {
+    body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     main{
         display: flex;
         flex-direction: row;
         min-width: 500px;
         background-color: var(--clr-neutral-100);
         border-radius: 3%;
-        margin: 10% auto;
+        /* margin: 10% auto; */
     }
     .size-img{
         content: url(images/image-product-desktop.jpg);
